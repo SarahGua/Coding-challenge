@@ -1,0 +1,89 @@
+
+
+body{
+  background-image: url(background.jpg);
+  background-size: 100% 170%;
+  background-repeat: no-repeat;
+
+}
+
+.im{
+  width: 190px;
+  height: 80px;
+}
+
+.logo{
+  margin-top: 40px;
+}
+
+#title{
+  color: rgb(3, 231, 3);
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.parte1{
+  background-color: green;
+  padding: 10px;
+  background-color: rgb(3, 231, 3);
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+#linea{
+  border: 10px solid;
+  color: rgb(232, 183, 2);
+  width: 300px;
+  border-radius: 5px;
+  margin-right: 1080px;
+}
+
+#linea1{
+  border: 10px solid;
+  color: green;
+  width: 500px;
+  border-radius: 5px;
+  margin-right: 1200px;
+}
+
+#linea2{
+  border: 10px solid;
+  color: rgb(222, 47, 12);
+  width: 100px;
+  border-radius: 5px;
+  margin-right: 1240px;
+}
+
+.opzioni{
+  color: white;
+  font-size: 13px;
+  margin-left: 60px;
+}
+
+.freccia:before{
+  content: "\21A6";
+}
+
+.totale{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 30px;
+  padding-top: 1px;
+  padding-bottom: 30px;
+  font-family: "Arial";
+}
+
+#linea, #linea1, #linea2{
+  margin-bottom: 20px;
+}
+
+input{
+  font-size: 10px;
+}
+
+div > span{
+  font-size: 18px;
+}
